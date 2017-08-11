@@ -1,0 +1,9 @@
+__pycache__
+*/__pycache__
+dougiebot.egg-info/
+*.pyc
+*/*.pyc
+.gitignore
+.eggs/
+.cache/
+dougiebot.png

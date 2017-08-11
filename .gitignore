@@ -1,0 +1,8 @@
+__pycache__/
+dougiebot.egg-info/
+*.pyc
+.eggs/
+.cache/
+build
+dist
+.DS_Store
