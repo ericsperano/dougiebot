@@ -4,8 +4,10 @@ setup
 """
 from setuptools import setup
 
+exec(open('dougiebot/version.py').read())
+
 setup(name='dougiebot',
-      version='1.0.0',
+      version=__version__,
       description='Dougie Jones Slack Bot',
       url='http://github.com/ericsperano/dougiebot.git',
       author='Eric Sperano',
