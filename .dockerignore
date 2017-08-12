@@ -1,8 +1,10 @@
+.dockerignore
 __pycache__
 */__pycache__
 dougiebot.egg-info/
 *.pyc
 */*.pyc
+.git/
 .gitignore
 .eggs/
 .cache/
