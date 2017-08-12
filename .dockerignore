@@ -7,3 +7,4 @@ dougiebot.egg-info/
 .eggs/
 .cache/
 dougiebot.png
+Makefile
