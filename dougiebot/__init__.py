@@ -29,6 +29,8 @@ def main():
     def repeat_last_word(text, channel):
         word = last_word(text.replace(AT_BOT, ''))
         if word:
+            if word == 'hello':
+                word = 'HELLOOOOOOOO!!!'
             print("Repeating:", word)
             slack_client.api_call("chat.postMessage", channel=channel, text=word, as_user=True)
 
